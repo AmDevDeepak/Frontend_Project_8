@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    /*background-color: #713c2ec1;*/
+}
+
+nav{
+    padding: 3.5vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    position: relative;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: 400;
+    display: inline-block;
+}
+
+nav #centerA{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    color: #782913;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+    margin-top: 10vw;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Ethereal-Ethnicity{
+    width: 13vw;
+}
+
+.Ethereal-Ethnicity p{
+    font-size: 1vw;
+    margin: 0.5vw 0;
+    text-transform: capitalize;
+}
+
+.Ethereal-Ethnicity h2{
+    font-size: 1.3vw;
+}
+
+.Ethereal-Ethnicity .imgWrapper{
+    width: 100%;
+    height: 20vw;
+}
+
+.imgWrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.femme{
+    width: 25vw;
+    height: 35vw;
+    position: relative;
+}
+
+.femme .heading{
+    position: absolute;
+    top: -25%;
+    left: -20%;
+    color: #782913;
+}
+
+.femme img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.femme p{
+    margin-top: 1vw;
+    font-size: 1.3vw;
+    width: 100%;
+    font-weight: 400;
+}
+
+.femme h1{
+    font-size: 6.5vw;
+    font-weight: 500;
+    letter-spacing: -5px;
+    line-height: 5.5vw;
+}
+
+.visit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.visit h3{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.circleV{
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #3f3939;
+}
+
+.circleV i{
+    color: black;
+    font-size: 1.5vw;
+}
+
+.motive{
+    min-height: 30vh;
+    width: 100%;
+    padding: 0 10vw;
+    margin-top: 7vw;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: red;*/
+}
+
+.motive p{
+    text-align: right; 
+    width: 80%;
+    font-size: 1.5vw;
+    position: relative;
+    right: 0;
+    line-height: 2.5vw;
+    opacity: 0.9;
+}
+
+.motive h3{
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 1;
+    
+}
+
+.motive span{
+    width: 90px;
+    height: 45px;
+    /* background-color: red; */
+    display: inline-block;
+    border-radius: 80px;
+    margin: 0 6px;
+    margin-bottom: -15px;
+}
+
+#sp-1{
+    background-image: url('sp1.jpg');
+    background-position: center;
+    background-size: 50px;
+}
+
+#sp-2{
+    background-image: url('sp2.jpg');
+    background-position: 70px 45px;
+    background-size: 70px;
+    width: 70px;
+}
+
+#sp-3{
+    background-image: url('sp3.jpg');
+    background-position: 80px 50px;
+    background-size: 80px;
+    width: 80px;
+}
+
+#sp-4{
+    background-image: url('sp4.jpg');
+    background-position: 89.5px 50px;
+    background-size: 90px;
+}
+
+.picturesDiv{
+    min-height: 100vh;
+    width: 100%;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+    margin-top: 7vw;
+    display: flex;
+    /* background-color: red;  */
+    justify-content: space-between;
+}
+
+.f-Pic{
+    width: 20vw;
+}
+
+.f-Pic .Pic{
+    width: 100%;
+    height: 25vw;
+    /* background-color: red; */
+    margin-bottom: 1vw;
+}
+
+.Pic img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.f-Pic h1{
+    font-size: 2vw;
+    font-weight: 900;
+    margin-bottom: 1vw;
+    font-family: 'BioRhyme Expanded', serif;
+}
+
+.f-Pic p{
+    font-size: 1.2vw;
+}
+
+.s-Pic{
+    width: 30vw;
+    text-align: right;
+}
+
+.s-Pic .Pic{
+    width: 100%;
+    height: 38vw;
+    /* background-color: red; */
+    margin-bottom: 1vw;
+}
+
+.s-Pic h1{
+    font-size: 2vw;
+    font-weight: 900;
+    font-family: 'BioRhyme Expanded', serif;
+    margin-bottom: 1vw;
+}
+
+.s-Pic p{
+    font-size: 1.2vw;
+}
+
+.bridal{
+    width: 100%;
+    margin-top: 7vw;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 5vw;
+    /* background-color: red; */
+}
+
+.bridal .b-img{
+    width: 45%;
+    height: 80%;
+    /* background-color: red; */
+}
+
+.bridal .b-text{
+    text-align: center;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    padding: 0 3vw;
+}
+
+.b-text h1{
+    font-size: 2.5vw;
+    font-weight: 900; 
+    font-family: 'BioRhyme Expanded', serif; 
+}
+
+.b-text p{
+    font-size: 1.2vw; 
+    margin-top: 1vw; 
+}
